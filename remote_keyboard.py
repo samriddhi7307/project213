@@ -63,8 +63,9 @@ class MyApp(App):
             return False
 
     setup_thread = threading.Thread(target=setup)                   #sending messages 
-    setup_thread.start()        
+    setup_thread.start()     
     
+    musicWindow()
 
         
 if __name__== '__main__':
